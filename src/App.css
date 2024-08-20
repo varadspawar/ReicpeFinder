@@ -1,0 +1,23 @@
+.bgImage{
+    position: relative;
+    background: linear-gradient(rgba(4, 16, 185, 0.5), rgba(255, 0, 0, 0.4)), url('https://w0.peakpx.com/wallpaper/214/721/HD-wallpaper-delicious-food-bread-meat-gourmet-food.jpg');
+    min-height: 100vh;
+}   
+
+.textContent {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+}
+
+.headerTitle{
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    font-weight: 900; /* Try with a web-safe font */
+    font-family: Arial, sans-serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
